@@ -1,0 +1,62 @@
+div#shopify-section-16069909128b349ff7 {
+    background: blue;
+}
+
+.slick - slide img {
+    transform: translateZ(0) !important
+}
+.split {
+    --color - bg: #0f0f11;--color-text: # e3e5eb;
+    --color - link: #fff;
+    --color - link - hover: #fff
+}
+.content__type {
+    font - size: 7 vw;
+    margin: 0 auto;
+    text - align: justify;
+    font - family: condor - compressed, sans - serif;
+    font - weight: 300;
+    text - transform: uppercase;
+    padding: 5 rem 0;
+    line - height: 1;
+    backface - visibility: hidden; - webkit - user - select: none; - khtml - user - select: none; - moz - user - select: -moz - none; - o - user - select: none;
+    user - select: none;
+    background - size: 80 %
+}
+.content__type - special {
+    font - size: 29 vw;
+    display: block;
+    margin: 0 auto;
+    text - align: center
+}
+.content__img {
+    width: 100 % ;display: block;backface - visibility: hidden
+}
+.fold - scroller {
+    width: 60 vw
+}
+.fold {
+    overflow: hidden;height: 60 vh;width: 30 vw
+}
+.fold - before, .fold - after {
+    height: 20 vh
+}
+.side - left.fold - before - 1 {
+    transform: skew(40 deg)
+}
+.side - left.fold - after - 1, .side - right.fold - before - 1 {
+    transform: skew(-40 deg)
+}
+.side - right.fold - after - 1 {
+    transform: skew(40 deg)
+}
+.wrapper - 3 d {
+    position: relative;perspective: 250 px;transform - style: preserve - 3 d
+}
+.fold - after {
+    position: absolute;transform - origin: top center;right: 0;left: 0;top: 100 %
+}
+
+.fold - before {
+    position: absolute;transform - origin: bottom center;left: 0;right: 0;bottom: 100 %
+}
